@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ejercicioOnPlatform.MainPage">
+    <ScrollView>
+        <StackLayout Padding="40" >
+            <Label Text="Taller 1" TextColor="Black" FontSize="Medium" />
+            <Button Text="Ejercicio grid" Clicked="Button_Grid" />
+            <Button Text="Ejercicio onPlatform" Clicked="Button_OnPlat" />
+            <Button Text="Ejercicio Extensiones de marcado" Clicked="Button_ExtMar" />
+            <Label Text="Taller 2" TextColor="Black" FontSize="Medium" />
+            <Button Text="Ejercicio X:stactic"  Clicked="static_Clicked" />
+            <Button Text="Ejercicio Binding"  Clicked="Binding_Clicked" />
+            <Label Text="Taller 3" TextColor="Black" FontSize="Medium" />
+            <Button Text="Ejercicio Colecciones y conversiones" Clicked="Colections_Clicked" />
+            <Label Text="Taller 4" TextColor="Black" FontSize="Medium" />
+            <Button Text="Ejercicio Triggers y validadores" Clicked="triggers_Clicked" />
+            <Button Text="Ejercicio Behaviors" Clicked="behaviors_Clicked" />
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
